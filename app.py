@@ -1,3 +1,4 @@
+# https://github.com/rcdalj/ToDo-App.git
 import streamlit as st
 import streamlit.components.v1 as stc
 
@@ -117,7 +118,7 @@ def main():
             st.dataframe(df)
     else:
         with st.subheader("About"):
-            st.write("About")
+            st.write("Simple ToDo App using a sqlite3 database and Streamlit")
 
 
 
