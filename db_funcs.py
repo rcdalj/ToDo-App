@@ -1,5 +1,5 @@
 import sqlite3
-conn=sqlite3.connect("tasks_db.db")
+conn=sqlite3.connect("tasks.db")
 c=conn.cursor()
 
 def create_table():
